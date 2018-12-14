@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Pyramid Slide</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="top">
+			<h1>Pyramid Slide</h1>
+		</div>
+		<div class="bottom">
+			<div class="app">
+				<form class="controls"><label>Brick Symbol:<select id="symbol">
+                    <option value="#">#</option>
+                    <option value="@">@</option>
+                    <option value="X">X</option>
+                    <option value="$">$</option>
+                    </select></label>
+                        <span>How high?</span>
+                        <input id="rangeslider" class="rangeslider" type="range" min="1" max="20" value="8">
+                        <span id="slidervalue"></span>
+                        </form>
+                  <div class="viewport"></div>
+              </div>
+          </div>
+      </div>
+
+    <script src="pyramid.js"></script>
+  </body>
+</html>
